@@ -1,0 +1,10 @@
+CREATE DATABASE michel_silva_2032_roteiro_pratico
+CREATE TABLE clientes(
+nome VARCHAR (50),
+id INTEGER(20),
+email VARCHAR(50),
+idade INTEGER(2)
+);
+
+USE michel_silva_2032_roteiro_pratico;
+INSERT INTO `clientes`(`nome`, `id`, `email`, `idade`) VALUES ('michelzao','23167317','michelsivla433@gmail','32');
